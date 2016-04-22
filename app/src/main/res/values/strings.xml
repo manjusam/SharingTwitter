@@ -1,0 +1,14 @@
+<resources>
+    <string name="app_name">SharingTwit</string>
+
+    <string name="hello_world">Hello world!</string>
+    <string name="action_settings">Settings</string>
+
+    <!-- Twitter Configurations -->
+    <string name="TWIT_CONSUMER_KEY">6FGg0ITXfMESfNdALTHGpSSJx</string>
+    <string name="TWIT_CONSUMER_SECRET">dMy1LSvQvjbB0GhdaVcsNaiJjRIEljrqyK1imCORY3uSM2fbGQ</string>
+    <string name="TWIT_CALLBACK_URL">twitshare-android</string>
+    <string name="title_activity_login_fragment">LoginFragment</string>
+    <string name="title_activity_profile_timeline_fragment">ProfileTimelineFragment</string>
+    <!-- Twitter Configurations -->
+</resources>

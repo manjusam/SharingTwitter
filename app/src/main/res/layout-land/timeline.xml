@@ -1,0 +1,90 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="fill_parent"
+    android:layout_height="fill_parent"
+    android:orientation="vertical" >
+
+    <TableLayout xmlns:android="http://schemas.android.com/apk/res/android"
+        android:layout_width="fill_parent"
+        android:layout_height="55dp"
+        android:stretchColumns="0" >
+        <TableRow>
+            <LinearLayout android:layout_width="wrap_content"
+                android:layout_height="55dp"
+                android:layout_marginRight="3dp"
+                android:layout_marginTop="4dp"
+                android:background="@drawable/homebg"
+                android:orientation="horizontal"
+                android:weightSum="1">
+
+
+                <ImageView
+                    android:id="@+id/home"
+                    android:layout_width="40dp"
+                    android:layout_height="36dp"
+                    android:layout_marginLeft="10dp"
+                    android:background="#ffffff"
+                    android:src="@drawable/home"
+                    android:layout_weight="0.11" />
+
+
+                <ImageView
+                    android:id="@+id/profile_mine_image"
+                    android:layout_width="40dp"
+                    android:layout_height="wrap_content"
+                    android:layout_marginLeft="20dp"
+                    android:background="#ffffff"
+                    android:src="@drawable/home"
+                    />
+
+                <ImageView
+                    android:id="@+id/search"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_marginLeft="20dp"
+
+                    android:src="@drawable/search"
+                    />
+
+
+            </LinearLayout>
+
+
+            <LinearLayout android:id="@+id/tweetbtn"
+                android:layout_width="wrap_content"
+                android:layout_height="55dp"
+                android:layout_marginBottom="2dp"
+                android:layout_marginRight="3dp"
+                android:layout_marginTop="4dp"
+                android:background="@drawable/tweetbtnbg"
+                android:clickable="true"
+                android:orientation="horizontal"
+                android:weightSum="1">
+
+                <TextView android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_marginRight="5dp"
+                    android:text="Tweet"
+                    android:textColor="#000000"
+                    android:textSize="25sp"
+                    android:textStyle="bold" />
+
+                <ImageView android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:src="@drawable/tweet" />
+            </LinearLayout>
+
+        </TableRow>
+    </TableLayout>
+    <TextView android:id="@+id/my_twitter_name" android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginRight="5dp"
+        android:text="Welcome "
+        android:textColor="#000000"
+        android:textSize="25sp"
+        android:textStyle="bold" />
+    <ListView android:id="@+id/homeList"
+        android:layout_width="fill_parent"
+        android:layout_height="fill_parent" />
+
+</LinearLayout>
